@@ -54,23 +54,40 @@ body {
   text-align: center;
 }
 
+#splash {
+  background: url("/assets/images/splash.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 50px 20px 30px 20px;
+  margin-right: -10px;
+  margin-left: -10px;
+  height: 300px;
+  color: #d9cab2;
+}
+
+#splash img {
+  filter:grayscale(60%);
+}
+
 #about {
   background-color: #d9cab2;
-  padding: 50px 20px 30px 20px;
+  padding: 15px 20px 30px 20px;
   margin-right: -10px;
   margin-left: -10px;
 }
 
 #portfolio {
   background-color: #8da3a6;
-  padding: 50px 20px 30px 20px;
+  padding: 15px 20px 30px 20px;
   margin-right: -10px;
   margin-left: -10px;
 }
 
 #contact {
   background-color: #d9cab2;
-  padding: 50px 20px 30px 20px;
+  padding: 15px 20px 30px 20px;
   margin-right: -10px;
   margin-left: -10px;
 }

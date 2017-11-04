@@ -8,7 +8,7 @@ import { PageScrollConfig } from 'ng2-page-scroll';
 })
 export class AppComponent {
   constructor() {
-    PageScrollConfig.defaultScrollOffset = 70;
+    PageScrollConfig.defaultScrollOffset = 60;
     PageScrollConfig.defaultDuration = 1000;
     PageScrollConfig.defaultEasingLogic = {
       ease: (t: number, b: number, c: number, d: number): number => {
