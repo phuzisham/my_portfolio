@@ -11,7 +11,7 @@ body {
 
 body a {
   font-weight: bolder;
-  color: #974c2d;
+  color: #858976;
 }
 
 .header {
@@ -96,6 +96,23 @@ body a {
 #contact {
   background-color: #858976;
   padding: 15px 20px 30px 20px;
+}
+
+.red {
+  color:red;
+}
+
+.form-area {
+  background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+}
+
+#contactPic {
+  padding: 20px;
+  max-width: 100%;
+  border-radius: 42px;
 }
 
 #mediaButtons a {
