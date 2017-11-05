@@ -60,7 +60,7 @@ body a {
   padding: 10px;
 }
 
-#mainHead {
+.mainHead {
   text-align: center;
 }
 
@@ -80,6 +80,12 @@ body a {
 #portfolio {
   background-color: #5b6d78;
   padding: 15px 20px 30px 20px;
+}
+
+#portfolioImage {
+  width: 100%;
+  padding: 20px;
+  border-radius: 42px;
 }
 
 #contact {
