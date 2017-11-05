@@ -19,6 +19,7 @@ body a {
   padding: 12px;
   margin-bottom: 20px;
   background-color: #322925;
+  z-index: 1;
 }
 
 .header a {
