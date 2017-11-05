@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+  width: inherit;
+}
+
 body {
   background-color: #8da3a6;
   color: #223051;
@@ -26,16 +30,11 @@ body a {
   margin: 10px;
 }
 
-#headerA {
-  margin-left: -20px;
-}
-
 #name {
   float: right;
   font-weight: 600;
   font-size: 20px;
   color: #a3998b;
-  margin-right: -180px;
 }
 
 #splash {
@@ -44,19 +43,21 @@ body a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 55px 20px 30px 30px;
-  margin-right: -115px;
-  margin-left: -115px;
-  /*height: 300px;*/
+  padding: 60px;
   color: #d9cab2;
 }
 
-#splash img {
-  /*filter:grayscale(60%);*/
+#splash i {
+  font-size: 8rem;
+  display: inline-flex;
+  margin: 40px;
 }
 
-#skills {
-  list-style-type: none;
+#splashTitle {
+  margin: 20px;
+  background-color: #d9cab2;
+  color: #322925;
+  padding: 10px;
 }
 
 #mainHead {
@@ -66,37 +67,27 @@ body a {
 #about {
   background-color: #695849;
   padding: 15px 20px 30px 20px;
-  margin-right: -115px;
-  margin-left: -115px;
 }
 
 #profPic {
   padding: 20px;
   max-width: 100%;
   border-radius: 50%;
-  filter: grayscale(40%);
+  filter: grayscale(30%);
   margin-left: -20px;
 }
 
 #portfolio {
   background-color: #5b6d78;
   padding: 15px 20px 30px 20px;
-  margin-right: -115px;
-  margin-left: -115px;
 }
 
 #contact {
   background-color: #858976;
   padding: 15px 20px 30px 20px;
-  margin-right: -115px;
-  margin-left: -115px;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+#footer {
   height: 30px;
   padding: 3px;
   text-align: center;
