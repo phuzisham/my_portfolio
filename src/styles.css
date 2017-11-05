@@ -77,6 +77,15 @@ body a {
   margin-left: -20px;
 }
 
+#instagram {
+  background-color: #858976;
+}
+
+#instagram img {
+  margin: 40px;
+  max-width: 23%;
+}
+
 #portfolio {
   background-color: #5b6d78;
   padding: 15px 20px 30px 20px;
