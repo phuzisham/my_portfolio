@@ -119,7 +119,8 @@ body a {
 }
 
 #contactPic {
-  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   max-width: 100%;
   border-radius: 42px;
 }
@@ -167,8 +168,17 @@ body a {
 }
 
 #footer {
-  height: 30px;
-  padding: 3px;
-  text-align: center;
-  background-color: #322925;
+  /*height: 90px;*/
+  padding-top: 10px;
+  /*text-align: center;*/
+  background-color: #695b70;
+  list-style-type: none;
+}
+
+#footer a {
+  /*color: #695849;*/
+}
+
+#footer li {
+  list-style-type: none;
 }
