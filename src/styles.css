@@ -109,7 +109,17 @@ body a {
 
 #contact button {
   background-color: #5b6d78;
-  color: #d7e0d9;
+  color: #D8D7D7;
+  border-style: none;
+}
+
+#contact input {
+  background-color: #D8D7D7;
+  border-style: none;
+}
+
+#contact textarea {
+  background-color: #D8D7D7;
   border-style: none;
 }
 
